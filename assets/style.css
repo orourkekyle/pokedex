@@ -1,0 +1,79 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+.row {
+  justify-content: center;
+  align-content: center;
+}
+
+.pokedeximg {
+  max-width: 500px;
+  max-height: 100%;
+  display: block;
+}
+
+#pokemon-input {
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0;
+  padding: 5px;
+  padding-left: 26px;
+  float: none;
+  width: 60%;
+  height: 27px;
+  font-size: 15px;
+  line-height: normal;
+  border-color: red;
+}
+
+#find-pokemon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.youtubeIMG {
+  width: 80%;
+  height: 80%;
+}
+
+.card-text {
+  font-size: 0.8125rem;
+}
+.card-body {
+  position: relative;
+  background-image: repeating-linear-gradient(#fdfd96, #ffcc33);
+}
+
+.close {
+  position: absolute;
+  left: 0.625rem;
+  top: -17.5rem;
+}
+
+.youtube-vids {
+  z-index: 10;
+}
+
+.z {
+  z-index: 10;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 700px) {
+  .pokedeximg {
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+  }
+
+  .youtubeIMG {
+    max-width: 65%;
+    max-height: 65%;
+    display: block;
+  }
+}
