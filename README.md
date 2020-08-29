@@ -14,7 +14,7 @@ https://get.foundation/sites/docs/index.html
 https://www.w3schools.com/default.asp
 ## DEPLOYED LINK:
 Click URL to go directly to webpage to play game:
-https://mvolonnino.github.io/project1/
+https://github.com/orourkekyle/pokedex
 
 ## SCREENSHOT OF APP:
 
